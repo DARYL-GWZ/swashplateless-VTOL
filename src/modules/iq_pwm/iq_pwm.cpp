@@ -328,7 +328,7 @@ int iq_pwm_ss_main(int argc, char *argv[]){
         /*int orb_stat(int att_pub, uint64_t *time)*/
 /*       absoluteTime(ts);
          end= TsToAbstime(&ts);*/
-        /*usleep(200);*/
+        usleep(200);
 
         usleep(180-0.12*Speed);
 /*       printf("velocity_to_set= %lf     ",velocity_to_set / 2 / 3.14159 * 60);
